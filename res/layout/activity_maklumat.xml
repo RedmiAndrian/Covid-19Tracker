@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:padding="6dp"
+    android:layout_height="match_parent"
+    tools:context=".Maklumat">
+<ScrollView
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Pandemik COVID-19, juga dikenali sebagai pandemik koronavirus ialah pandemik penyakit koronavirus 2019 yang berterusan secara global berpunca daripada koronavirus sindrom pernafasan akut teruk 2 (SARS-CoV-2)."
+        android:textAlignment="center"
+        android:textSize="20sp"
+        android:textColor="@android:color/black" />
+
+        <ImageView
+            android:id="@+id/virus"
+            android:layout_width="175dp"
+            android:layout_height="175dp"
+            android:layout_gravity="center"
+            android:layout_margin="10dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAlignment="center"
+            android:text="Wabak ini pada mulanya dikesan pada pertengahan Disember 2019 di bandaraya Wuhan, Hubei, China, dan telah diiktiraf sebagai pandemik oleh Pertubuhan Kesihatan Sedunia (WHO) pada 11 Mac 2020."
+            android:textSize="20sp"
+            android:textColor="@android:color/black" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAlignment="center"
+            android:text="Virus ini kebanyakannya menular antara seseorang dengan cara yang serupa dengan influenza, melalui titisan pernafasan daripada batuk atau bersin. Ia dianggap paling mudah berjangkit apabila seseorang menerim tanda gejala, walaupun penyebarannya mungkin walaupun sebelum gejala muncul."
+            android:textSize="20sp"
+            android:textColor="@android:color/black" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAlignment="center"
+            android:text="Masa antara pendedahan dan permulaan gejala biasanya lima hari, tetapi mungkin berkisar antara dua hingga empat belas hari."
+            android:textSize="20sp"
+            android:textColor="@android:color/black" />
+
+    </LinearLayout>
+
+</ScrollView>
+
+</RelativeLayout>

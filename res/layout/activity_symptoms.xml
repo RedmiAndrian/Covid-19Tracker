@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:padding="6sp"
+    android:layout_height="match_parent"
+    tools:context=".Symptoms">
+
+    <TextView
+        android:id="@+id/text_view1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Simptom-simptom yang diyakini menandakan seseorang itu dijangkiti COVID-19 ialah:"
+        android:textAlignment="center"
+        android:textSize="20sp"
+        android:layout_centerHorizontal="true"
+        android:textColor="@android:color/black" />
+
+    <ScrollView
+        android:id="@+id/scroll_view1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/text_view1" >
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical" >
+
+
+            <LinearLayout
+                android:id="@+id/linearLayout1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal" >
+
+                <ImageView
+                    android:id="@+id/simptom_image1"
+                    android:layout_weight="1"
+                    android:layout_width="175dp"
+                    android:layout_height="175dp" />
+
+                <ImageView
+                    android:id="@+id/simptom_image2"
+                    android:layout_width="175dp"
+                    android:layout_weight="1"
+                    android:layout_height="175dp" />
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/text_simptom1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Batuk"
+                android:layout_below="@id/linearLayout1"
+                android:layout_marginStart="54dp" />
+
+            <TextView
+                android:id="@+id/text_simptom2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Sesak Nafas"
+                android:layout_alignParentEnd="true"
+                android:layout_below="@id/linearLayout1"
+                android:layout_marginEnd="54dp" />
+
+            <LinearLayout
+                android:id="@+id/linearLayout2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/text_simptom1"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:id="@+id/simptom_image3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="175dp"
+                    android:layout_weight="1" />
+
+                <ImageView
+                    android:id="@+id/simptom_image4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="175dp"
+                    android:layout_weight="1" />
+
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/text_simptom3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Selesema"
+                android:layout_marginStart="54dp"
+                android:layout_below="@id/linearLayout2" />
+
+            <TextView
+                android:id="@+id/text_simptom4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Demam"
+                android:layout_alignParentEnd="true"
+                android:layout_marginEnd="54dp"
+                android:layout_below="@id/linearLayout2" />
+
+        </RelativeLayout>
+
+    </ScrollView>
+
+
+</RelativeLayout>

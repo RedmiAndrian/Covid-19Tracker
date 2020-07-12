@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Urgent">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Aplikasi ini tidak boleh diedarkan kepada dan diterbitkan kepada Google Play Store atau mana-mana 'app store' yang terdapat di Internet. Jangan menyalahgunakan aplikasi ini."
+        android:textSize="20sp"
+        android:textAlignment="center"
+        android:textColor="@android:color/black" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Aplikasi ini hanya digunakan untuk tujuan pendidikan sahaja. \nAplikasi ini juga tidak akan mengambil apa-apa maklumat pengguna (Aplikasi ini sangat selamat)."
+        android:textSize="20sp"
+        android:textAlignment="center"
+        android:textColor="@android:color/black" />
+
+</LinearLayout>
